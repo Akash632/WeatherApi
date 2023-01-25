@@ -1,0 +1,21 @@
+
+import React from "react"
+import './weather.css';
+
+function Weather(){
+    //https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=600bb031befd49676b035d8b10f716a6
+
+return(
+        <div className="mid_section">
+            <div className="temp_section">
+                <p>London</p>
+                <img alt="weather_image"/>
+                <p>Cloudy</p>
+            </div>
+            <div className="temp">
+                <h1>30c</h1>
+            </div>
+        </div>
+)
+}
+export default Weather;

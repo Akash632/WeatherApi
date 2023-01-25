@@ -1,0 +1,31 @@
+.mid_section{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.temp_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .temp{
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 100px;
+} */
+.temp_section>p{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.temp>h1{
+    font-size: 50px;
+}
