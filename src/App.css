@@ -25,3 +25,35 @@
     flex-direction: column;
     padding: 16px;
 }
+.search{
+    width: 100%;
+    padding: 16px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(0, 151, 19, 0.3);
+    opacity: 0.6;
+}
+.search>input{
+    border: 0.8px solid white;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,7);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+.search>input:focus{
+    outline: none;
+}
+.search_button{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: white; 
+    cursor: pointer;
+}
